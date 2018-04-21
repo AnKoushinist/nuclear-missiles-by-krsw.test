@@ -2,11 +2,10 @@
 
 import os
 import threading
-from lambda_function import bomb
+from lambda_function import forever
 
 def simpleBomb():
-    while True:
-        bomb(os.environ['BOMB_TO'])
+    forever(os.environ['BOMB_TO'])
 
 if __name__ == "__main__":
 	thureads = []
