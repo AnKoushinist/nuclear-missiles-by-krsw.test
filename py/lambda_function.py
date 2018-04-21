@@ -10,8 +10,12 @@ def bomb(id):
 	requests.get(candy_url, headers=headers)
 
 def forever(id):
-    while True:
-        bomb(id)
+	while True:
+		try:
+			bomb(id)
+		except:
+			pass
+
 
 if __name__ == "__main__":
 	url = 'https://jbbs.shitaraba.net/bbs/read.cgi/internet/24622/1522583908/l50'
