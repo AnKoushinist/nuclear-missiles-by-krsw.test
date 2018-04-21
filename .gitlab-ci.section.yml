@@ -1,0 +1,5 @@
+_NAME:
+  <<: *bomb
+  variables:
+    BOMB_TO: NAME
+
