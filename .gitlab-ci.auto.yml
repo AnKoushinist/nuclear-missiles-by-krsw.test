@@ -6,8 +6,107 @@ before_script:
 
 stages:
   - bomb
+  - bomb2
 
-auto:
+auto1:
   stage: bomb
   script:
     - timeout 1d ./py/lambda_function.py
+
+auto2:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+auto3:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+auto4:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+auto5:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+auto6:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+auto7:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+auto8:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+auto9:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+auto10:
+  stage: bomb
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+# bomb2
+
+-auto1:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto2:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto3:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto4:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto5:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto6:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto7:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto8:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto9:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
+-auto10:
+  stage: bomb2
+  script:
+    - timeout 1d ./py/lambda_function.py
+
