@@ -20,24 +20,3 @@ stages:
 
 
 auto1: *a
-auto2: *a
-auto3: *a
-auto4: *a
-auto5: *a
-auto6: *a
-auto7: *a
-auto8: *a
-auto9: *a
-auto10: *a
-# bomb2
-
--auto1: *b
--auto2: *b
--auto3: *b
--auto4: *b
--auto5: *b
--auto6: *b
--auto7: *b
--auto8: *b
--auto9: *b
--auto10: *b
