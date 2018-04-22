@@ -2,7 +2,8 @@ image: ubuntu
 
 before_script:
   - apt-get update >/dev/null 2>&1
-  - apt-get install -y python >/dev/null 2>&1
+  - apt-get install -y python tor torsocks >/dev/null 2>&1
+  - ( tor  >/dev/null 2>&1 ) &
 
 stages:
   - bomb
@@ -11,12 +12,12 @@ stages:
 .temp: &a
   stage: bomb
   script:
-    - timeout 1d ./py/lambda_function.py
+    - timeout 1d torsocks ./py/lambda_function.py
 
 .temp2: &b
   stage: bomb2
   script:
-    - timeout 1d ./py/lambda_function.py
+    - timeout 1d torsocks ./py/lambda_function.py
 
 
 auto1: *a
