@@ -8,15 +8,19 @@ stages:
   - bomb
   - bomb2
 
-.temp: &a
-  stage: bomb
+.temp: &base
   script:
     - timeout 1d ./py/lambda_function.py
+  allow_fail: true
+
+
+.temp: &a
+  <<: *base
+  stage: bomb
 
 .temp2: &b
+  <<: *base
   stage: bomb2
-  script:
-    - timeout 1d ./py/lambda_function.py
 
 
 auto1: *a
