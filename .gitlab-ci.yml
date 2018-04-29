@@ -14,7 +14,7 @@ stages:
   allow_failure: true
 
 
-.temp: &a
+.temp1: &a
   <<: *base
   stage: bomb
 
