@@ -20,3 +20,43 @@ stages:
 
 
 auto1: *a
+auto2: *a
+auto3: *a
+auto4: *a
+auto5: *a
+auto6: *a
+auto7: *a
+auto8: *a
+auto9: *a
+auto10: *a
+auto11: *a
+auto12: *a
+auto13: *a
+auto14: *a
+auto15: *a
+auto16: *a
+auto17: *a
+auto18: *a
+auto19: *a
+auto20: *a
+
+_auto1: *b
+_auto2: *b
+_auto3: *b
+_auto4: *b
+_auto5: *b
+_auto6: *b
+_auto7: *b
+_auto8: *b
+_auto9: *b
+_auto10: *b
+_auto11: *b
+_auto12: *b
+_auto13: *b
+_auto14: *b
+_auto15: *b
+_auto16: *b
+_auto17: *b
+_auto18: *b
+_auto19: *b
+_auto20: *b
