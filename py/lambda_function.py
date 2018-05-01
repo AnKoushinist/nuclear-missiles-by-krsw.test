@@ -18,7 +18,7 @@ def forever(id):
 
 
 if __name__ == "__main__":
-	url = 'https://jbbs.shitaraba.net/bbs/read.cgi/internet/24622/1522583908/l50'
+	url = 'https://jbbs.shitaraba.net/bbs/read.cgi/internet/24622/1522583908/'
 
 	res = re.sub(' *<','<',re.sub('> *','>',requests.get(url).text.replace('\n',' ').replace('\t',' '))).split('</dd>')[-2].split('<dd>')[-1].split('<br>')
 	res.pop()
