@@ -12,7 +12,7 @@ stages:
   script:
     - timeout 1d ./py/lambda_function.py
   allow_failure: true
-  retry: 10
+  retry: 2
 
 
 .temp1: &a
