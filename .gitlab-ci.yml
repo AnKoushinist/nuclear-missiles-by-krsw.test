@@ -10,7 +10,7 @@ stages:
 
 .temp: &base
   script:
-    - timeout 1d ./py/lambda_function.py
+    - timeout 1.5d ./py/lambda_function.py
   allow_failure: true
 
 
