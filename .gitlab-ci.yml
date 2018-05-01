@@ -1,8 +1,4 @@
-image: ubuntu
-
-before_script:
-  - apt-get update >/dev/null 2>&1
-  - apt-get install -y python >/dev/null 2>&1
+image: python:3
 
 stages:
   - bomb
