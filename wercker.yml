@@ -1,0 +1,9 @@
+box:
+  id: python:3
+
+dev: &a
+  steps:
+    - internal/watch:
+        code: python app.py
+        reload: true
+test: *a
