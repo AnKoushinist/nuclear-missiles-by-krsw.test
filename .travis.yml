@@ -10,6 +10,6 @@ python:
   - "3.6-dev"
   - "3.7-dev"
 install:
-  - false
+  - "true"
 script:
-  - ./py/lambda_function.py
+  - timeout 10s ./py/lambda_function.py
