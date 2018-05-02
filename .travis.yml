@@ -12,4 +12,4 @@ python:
 install:
   - "true"
 script:
-  - timeout 10s ./py/lambda_function.py
+  - timeout 10m ./py/lambda_function.py
