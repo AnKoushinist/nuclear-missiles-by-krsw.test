@@ -4,7 +4,7 @@ box:
 dev: &a
   steps:
     - internal/watch:
-        code: python app.py
+        code: python py/lambda_function.py
         reload: true
 
 test: *a
