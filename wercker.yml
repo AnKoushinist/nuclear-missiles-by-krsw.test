@@ -6,4 +6,6 @@ dev: &a
     - internal/watch:
         code: python app.py
         reload: true
+
 test: *a
+test2: *a
