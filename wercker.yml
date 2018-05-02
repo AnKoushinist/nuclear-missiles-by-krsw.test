@@ -1,12 +1,12 @@
 box:
   id: python:3
 
-dev: &a
+build: &a
   steps:
-    - internal/watch:
-        code: python py/lambda_function.py
-        reload: true
+    - script:
+        name: python unit test
+        code: |
+          python py/lambda_function.py
 
-build: *a
 test: *a
 test2: *a
