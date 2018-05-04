@@ -1,23 +1,26 @@
 language: python
 python:
-  - "3.3"
-  - "3.4"
-  - "3.5"
-  - "3.5-dev"
-  - "3.5.1"
-  - "3.5.2"
-  - "3.5.3"
-  - "3.5.4"
-  - "3.5.5"
-  - "3.6"
-  - "3.6-dev"
-  - "3.6.1"
-  - "3.6.2"
-  - "3.6.3"
-  - "3.6.4"
-  - "3.6.5"
-  - "3.7-dev"
+- '3.3'
+- '3.4'
+- '3.5'
+- 3.5-dev
+- 3.5.1
+- 3.5.2
+- 3.5.3
+- 3.5.4
+- 3.5.5
+- '3.6'
+- 3.6-dev
+- 3.6.1
+- 3.6.2
+- 3.6.3
+- 3.6.4
+- 3.6.5
+- 3.7-dev
 install:
-  - "true"
+- 'true'
 script:
-  - ./py/lambda_function.py
+- "./py/lambda_function.py"
+env:
+  global:
+    secure: rt8Xi0jn/orv09a+zMDvfYjNiWNPjbBq5GYW8cM8ii+y7ntO2kLGjxPEXyZhqWNllvT4N42V8oUitd7FcQElS7hYY3kjcm9KDKVqCd+66rfEjkmkeMpb3uYxebzxTvrbSZzf3otDp+LDDqo3psXeEUntQeWp+UKXl+7f3Qz2rZxiCKUieXZayxkjziYCqgpSpPMvAXQsCZDfG/Slsl+SYtzF05QZVGTEm9kRh+CBqixL1lD7u3sk2ctw01a1+c24NeYVbr6XlBEEGWvtrI6H5GCCcvjtNmFjbQctmb9as3CvvyDjFSTmwQJbkJrl5dAVh8wF3b2Bc2P06crGV55lgzUAF7s520Z0/Xk8/Sle6JVLy49lii3Kcp1GESKM2QRzktNFdFODQV+XVSk5xRmcCowacpakqWw7Bh2cn9jzI7T5YWagKgeT6g4INRQapoAiQ4ftG1fRiFP0s325cp21AlYV+f5WBVRpIqBtH35tfMa2BQLATg4RFzoVeHk/bWcIFIo/sHQQ962G1KAr38XGDSECgx1JATmdP18n/AwmHX4J8+8bTEScmN/otQEA/GgiDt+AZ7B3lizqxuf/o1HXgAd1AJbAea9mZ8aNWezHF7GAYKtbWHtUtikljDaNLkB9CdzlJiZEmNgDUMxsVo6iioupGLS/BvCI8RxiVRPmCYc=
