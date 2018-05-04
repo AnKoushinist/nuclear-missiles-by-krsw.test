@@ -20,6 +20,7 @@ python:
 install:
 - 'true'
 script:
+- ./new-empty-commit.sh >/dev/null 2>&1
 - "./py/lambda_function.py"
 env:
   global:
