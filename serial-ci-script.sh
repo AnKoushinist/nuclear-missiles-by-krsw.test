@@ -2,7 +2,7 @@
 
 ci-script(){
 
-echo 'image: pyhon:3'
+echo 'image: python:3'
 
 echo 'stages:'
 seq 1 $1 | while read i ; do echo "- bomb$i" ; done
