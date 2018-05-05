@@ -1,4 +1,4 @@
 #!/bin/bash
-git filter-branch --prune-empty
+git filter-branch --prune-empty -f
 
 
