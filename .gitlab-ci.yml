@@ -1,63 +1,609 @@
-image: python:3
-
+image: pyhon:3
 stages:
-  - bomb
-  - bomb2
+- bomb1
+- bomb2
+- bomb3
+- bomb4
+- bomb5
+- bomb6
+- bomb7
+- bomb8
+- bomb9
+- bomb10
+- bomb11
+- bomb12
+- bomb13
+- bomb14
+- bomb15
+- bomb16
+- bomb17
+- bomb18
+- bomb19
+- bomb20
+- bomb21
+- bomb22
+- bomb23
+- bomb24
+- bomb25
+- bomb26
+- bomb27
+- bomb28
+- bomb29
+- bomb30
+- bomb31
+- bomb32
+- bomb33
+- bomb34
+- bomb35
+- bomb36
+- bomb37
+- bomb38
+- bomb39
+- bomb40
+- bomb41
+- bomb42
+- bomb43
+- bomb44
+- bomb45
+- bomb46
+- bomb47
+- bomb48
+- bomb49
+- bomb50
+- bomb51
+- bomb52
+- bomb53
+- bomb54
+- bomb55
+- bomb56
+- bomb57
+- bomb58
+- bomb59
+- bomb60
+- bomb61
+- bomb62
+- bomb63
+- bomb64
+- bomb65
+- bomb66
+- bomb67
+- bomb68
+- bomb69
+- bomb70
+- bomb71
+- bomb72
+- bomb73
+- bomb74
+- bomb75
+- bomb76
+- bomb77
+- bomb78
+- bomb79
+- bomb80
+- bomb81
+- bomb82
+- bomb83
+- bomb84
+- bomb85
+- bomb86
+- bomb87
+- bomb88
+- bomb89
+- bomb90
+- bomb91
+- bomb92
+- bomb93
+- bomb94
+- bomb95
+- bomb96
+- bomb97
+- bomb98
+- bomb99
+- bomb100
 
 .temp: &base
   script:
-    - timeout 1.5d ./py/lambda_function.py
+    - timeout 30m ./py/lambda_function.py
   allow_failure: true
   retry: 2
 
 
-.temp1: &a
+bomb1:
   <<: *base
-  stage: bomb
+  stage: bomb1
 
-.temp2: &b
+
+bomb2:
   <<: *base
   stage: bomb2
 
 
-auto1: *a
-auto2: *a
-auto3: *a
-auto4: *a
-auto5: *a
-auto6: *a
-auto7: *a
-auto8: *a
-auto9: *a
-auto10: *a
-auto11: *a
-auto12: *a
-auto13: *a
-auto14: *a
-auto15: *a
-auto16: *a
-auto17: *a
-auto18: *a
-auto19: *a
-auto20: *a
+bomb3:
+  <<: *base
+  stage: bomb3
 
-_auto1: *b
-_auto2: *b
-_auto3: *b
-_auto4: *b
-_auto5: *b
-_auto6: *b
-_auto7: *b
-_auto8: *b
-_auto9: *b
-_auto10: *b
-_auto11: *b
-_auto12: *b
-_auto13: *b
-_auto14: *b
-_auto15: *b
-_auto16: *b
-_auto17: *b
-_auto18: *b
-_auto19: *b
-_auto20: *b
+
+bomb4:
+  <<: *base
+  stage: bomb4
+
+
+bomb5:
+  <<: *base
+  stage: bomb5
+
+
+bomb6:
+  <<: *base
+  stage: bomb6
+
+
+bomb7:
+  <<: *base
+  stage: bomb7
+
+
+bomb8:
+  <<: *base
+  stage: bomb8
+
+
+bomb9:
+  <<: *base
+  stage: bomb9
+
+
+bomb10:
+  <<: *base
+  stage: bomb10
+
+
+bomb11:
+  <<: *base
+  stage: bomb11
+
+
+bomb12:
+  <<: *base
+  stage: bomb12
+
+
+bomb13:
+  <<: *base
+  stage: bomb13
+
+
+bomb14:
+  <<: *base
+  stage: bomb14
+
+
+bomb15:
+  <<: *base
+  stage: bomb15
+
+
+bomb16:
+  <<: *base
+  stage: bomb16
+
+
+bomb17:
+  <<: *base
+  stage: bomb17
+
+
+bomb18:
+  <<: *base
+  stage: bomb18
+
+
+bomb19:
+  <<: *base
+  stage: bomb19
+
+
+bomb20:
+  <<: *base
+  stage: bomb20
+
+
+bomb21:
+  <<: *base
+  stage: bomb21
+
+
+bomb22:
+  <<: *base
+  stage: bomb22
+
+
+bomb23:
+  <<: *base
+  stage: bomb23
+
+
+bomb24:
+  <<: *base
+  stage: bomb24
+
+
+bomb25:
+  <<: *base
+  stage: bomb25
+
+
+bomb26:
+  <<: *base
+  stage: bomb26
+
+
+bomb27:
+  <<: *base
+  stage: bomb27
+
+
+bomb28:
+  <<: *base
+  stage: bomb28
+
+
+bomb29:
+  <<: *base
+  stage: bomb29
+
+
+bomb30:
+  <<: *base
+  stage: bomb30
+
+
+bomb31:
+  <<: *base
+  stage: bomb31
+
+
+bomb32:
+  <<: *base
+  stage: bomb32
+
+
+bomb33:
+  <<: *base
+  stage: bomb33
+
+
+bomb34:
+  <<: *base
+  stage: bomb34
+
+
+bomb35:
+  <<: *base
+  stage: bomb35
+
+
+bomb36:
+  <<: *base
+  stage: bomb36
+
+
+bomb37:
+  <<: *base
+  stage: bomb37
+
+
+bomb38:
+  <<: *base
+  stage: bomb38
+
+
+bomb39:
+  <<: *base
+  stage: bomb39
+
+
+bomb40:
+  <<: *base
+  stage: bomb40
+
+
+bomb41:
+  <<: *base
+  stage: bomb41
+
+
+bomb42:
+  <<: *base
+  stage: bomb42
+
+
+bomb43:
+  <<: *base
+  stage: bomb43
+
+
+bomb44:
+  <<: *base
+  stage: bomb44
+
+
+bomb45:
+  <<: *base
+  stage: bomb45
+
+
+bomb46:
+  <<: *base
+  stage: bomb46
+
+
+bomb47:
+  <<: *base
+  stage: bomb47
+
+
+bomb48:
+  <<: *base
+  stage: bomb48
+
+
+bomb49:
+  <<: *base
+  stage: bomb49
+
+
+bomb50:
+  <<: *base
+  stage: bomb50
+
+
+bomb51:
+  <<: *base
+  stage: bomb51
+
+
+bomb52:
+  <<: *base
+  stage: bomb52
+
+
+bomb53:
+  <<: *base
+  stage: bomb53
+
+
+bomb54:
+  <<: *base
+  stage: bomb54
+
+
+bomb55:
+  <<: *base
+  stage: bomb55
+
+
+bomb56:
+  <<: *base
+  stage: bomb56
+
+
+bomb57:
+  <<: *base
+  stage: bomb57
+
+
+bomb58:
+  <<: *base
+  stage: bomb58
+
+
+bomb59:
+  <<: *base
+  stage: bomb59
+
+
+bomb60:
+  <<: *base
+  stage: bomb60
+
+
+bomb61:
+  <<: *base
+  stage: bomb61
+
+
+bomb62:
+  <<: *base
+  stage: bomb62
+
+
+bomb63:
+  <<: *base
+  stage: bomb63
+
+
+bomb64:
+  <<: *base
+  stage: bomb64
+
+
+bomb65:
+  <<: *base
+  stage: bomb65
+
+
+bomb66:
+  <<: *base
+  stage: bomb66
+
+
+bomb67:
+  <<: *base
+  stage: bomb67
+
+
+bomb68:
+  <<: *base
+  stage: bomb68
+
+
+bomb69:
+  <<: *base
+  stage: bomb69
+
+
+bomb70:
+  <<: *base
+  stage: bomb70
+
+
+bomb71:
+  <<: *base
+  stage: bomb71
+
+
+bomb72:
+  <<: *base
+  stage: bomb72
+
+
+bomb73:
+  <<: *base
+  stage: bomb73
+
+
+bomb74:
+  <<: *base
+  stage: bomb74
+
+
+bomb75:
+  <<: *base
+  stage: bomb75
+
+
+bomb76:
+  <<: *base
+  stage: bomb76
+
+
+bomb77:
+  <<: *base
+  stage: bomb77
+
+
+bomb78:
+  <<: *base
+  stage: bomb78
+
+
+bomb79:
+  <<: *base
+  stage: bomb79
+
+
+bomb80:
+  <<: *base
+  stage: bomb80
+
+
+bomb81:
+  <<: *base
+  stage: bomb81
+
+
+bomb82:
+  <<: *base
+  stage: bomb82
+
+
+bomb83:
+  <<: *base
+  stage: bomb83
+
+
+bomb84:
+  <<: *base
+  stage: bomb84
+
+
+bomb85:
+  <<: *base
+  stage: bomb85
+
+
+bomb86:
+  <<: *base
+  stage: bomb86
+
+
+bomb87:
+  <<: *base
+  stage: bomb87
+
+
+bomb88:
+  <<: *base
+  stage: bomb88
+
+
+bomb89:
+  <<: *base
+  stage: bomb89
+
+
+bomb90:
+  <<: *base
+  stage: bomb90
+
+
+bomb91:
+  <<: *base
+  stage: bomb91
+
+
+bomb92:
+  <<: *base
+  stage: bomb92
+
+
+bomb93:
+  <<: *base
+  stage: bomb93
+
+
+bomb94:
+  <<: *base
+  stage: bomb94
+
+
+bomb95:
+  <<: *base
+  stage: bomb95
+
+
+bomb96:
+  <<: *base
+  stage: bomb96
+
+
+bomb97:
+  <<: *base
+  stage: bomb97
+
+
+bomb98:
+  <<: *base
+  stage: bomb98
+
+
+bomb99:
+  <<: *base
+  stage: bomb99
+
+
+bomb100:
+  <<: *base
+  stage: bomb100
+
