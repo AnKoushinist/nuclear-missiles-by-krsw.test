@@ -30,7 +30,7 @@ if __name__ == "__main__":
 	thureads = []
 
 	for i in res:
-		for j in range(50):
+		for j in range(10):
 			thureads.append(threading.Thread(target=forever, args=(i,)))
 	
 	for i in thureads:
