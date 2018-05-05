@@ -1,4 +1,4 @@
-image: pyhon:3
+image: python:3
 stages:
 - bomb1
 - bomb2
